@@ -44,6 +44,15 @@ textarea {
     resize: vertical;
 }
 
+#wrapper {
+  max-width: 1520px;
+  background-color: black;
+  width: 100%;
+  max-height: 800px;
+  height: 100%;
+}
+
+
 
 /* ==========================================================================
    Author's custom styles
@@ -57,8 +66,7 @@ img {
 }
 
 /*Here's where you would put your Google Fonts import*/
-@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700|Source+Sans+Pro:200,300,400,400i,600,700,900|Source+Serif+Pro:400,600,700');
-
+@import url('https://fonts.googleapis.com/css?family=Saira');
 
 /* BOX MODEL SETTING FOR ALL ELEMENTS BY DEFAULT
 THIS IS BETTER THAN DEFAULT, YOU SHOULD ALWAYS USE THIS:
@@ -74,7 +82,7 @@ html {
 body {
   font-size: 16px; /* Base Size */
   /*Setting the base font family*/
-  font-family: "Source Sans Pro", Verdana, sans-serif;
+  font-family: 'Saira', sans-serif;
   margin: 0;
   padding: 0;
 }
