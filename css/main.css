@@ -45,17 +45,31 @@ textarea {
 }
 
 h2 {
-  border-bottom: 3px solid black;
+  border-bottom: 1.5px solid black;
+  color: white;
+  font-size: 300%;
+}
+
+h1 {
+font-size: 500%;
+}
+
+p {
+  text-align: left;
+  line-height: 1.5em;
 }
 
 .wrapper {
   background-color: #e63549;
+  background-image: url("RedPlanet.jpg");
   width: 100%;
+  padding: 200px;
 }
 
 .content {
   max-width: 1440px;
   margin: 0 auto;
+  background-color:;
 }
 
 .column-band {
@@ -69,13 +83,23 @@ h2 {
   flex-flow: row-reverse nowrap;
 }
 
+.h1-main {
+ font-size:500%;
+}
 
 .text-wrapper {
   flex: 0 1 48.5%;
 }
 
+.text-wrapper-2 {
+  flex: 0 1 48.5%;
+  text-align: center;
+}
+
 .image-wrap {
   flex: 0 1 48.5%;
+  margin-top: 10px;
+  padding: 80px;
 }
 
 
