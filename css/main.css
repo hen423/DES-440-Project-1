@@ -1,4 +1,8 @@
-/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+/*Here's where you would put your Google Fonts import*/
+@import url('https://fonts.googleapis.com/css?family=Saira');
+
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */+
 /*This is some further normalization and base styles. */
 html {
     color: #222;
@@ -52,6 +56,7 @@ h2 {
 
 h1 {
 font-size: 500%;
+line-height: 0.9;
 }
 
 p {
@@ -61,45 +66,61 @@ p {
 
 .wrapper {
   background-color: #e63549;
-  background-image: url("RedPlanet.jpg");
   width: 100%;
   padding: 200px;
+}
+
+.earth-reliant {
+  background-image: url("../RedPlanet.jpg");
 }
 
 .content {
   max-width: 1440px;
   margin: 0 auto;
-  background-color:;
 }
 
 .column-band {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  flex-flow: row nowrap;
+  align-items: center;
+  flex-flow: column nowrap;
 }
 
-.column-reverse {
-  flex-flow: row-reverse nowrap;
-}
+
 
 .h1-main {
  font-size:500%;
 }
 
 .text-wrapper {
-  flex: 0 1 48.5%;
+  flex: 0 0 100%;
 }
 
-.text-wrapper-2 {
-  flex: 0 1 48.5%;
-  text-align: center;
-}
+
 
 .image-wrap {
-  flex: 0 1 48.5%;
+  flex: 0 0 100%;
   margin-top: 10px;
-  padding: 80px;
+  /*padding: 80px;*/
+}
+
+/* Large Tablet Up styles */
+@media only screen and (min-width: 1024px) {
+  .column-band {
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-flow: row nowrap;
+  }
+  .text-wrapper, .image-wrap {
+    flex: 0 0 48%;
+  }
+  .column-reverse {
+    flex-flow: row-reverse nowrap;
+  }
+}
+
+
+.text-centered {
+  text-align: center;
 }
 
 
@@ -107,15 +128,14 @@ p {
    Author's custom styles
    ========================================================================== */
 
-/* Responsive images base, put your images in a wrapper
+/* Responsive images base, put your images in a wrapper */
 img {
     display: block;
     width: 100%;
     height: auto;
 }
 
-/*Here's where you would put your Google Fonts import*/
-@import url('https://fonts.googleapis.com/css?family=Saira');
+
 
 /* BOX MODEL SETTING FOR ALL ELEMENTS BY DEFAULT
 THIS IS BETTER THAN DEFAULT, YOU SHOULD ALWAYS USE THIS:
