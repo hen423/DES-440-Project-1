@@ -64,6 +64,7 @@ p {
   line-height: 1.5em;
 }
 
+
 .wrapper {
   background-color: #e63549;
   width: 100%;
@@ -71,7 +72,23 @@ p {
 }
 
 .earth-reliant {
-  background-image: url("../RedPlanet.jpg");
+  background-image: url("../Background.png");
+}
+
+.the-journey {
+  background-image: url("../Background.png");
+}
+
+.proving-ground {
+  background-image: url("../Background.png");
+}
+
+.earth-independent {
+background-image: url("../Background.png");
+}
+
+.living-mars {
+  background-image: url("../Background.png");
 }
 
 .content {
@@ -93,6 +110,7 @@ p {
 
 .text-wrapper {
   flex: 0 0 100%;
+  margin-bottom: 10px;
 }
 
 
@@ -111,7 +129,7 @@ p {
     flex-flow: row nowrap;
   }
   .text-wrapper, .image-wrap {
-    flex: 0 0 48%;
+    flex: 0 0 35%;
   }
   .column-reverse {
     flex-flow: row-reverse nowrap;
