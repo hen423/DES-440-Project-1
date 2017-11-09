@@ -95,9 +95,8 @@ background-position: center center;
 
 
 .wrapper {
-  background-color: #e63549;
   width: 100%;
-  padding: 200px;
+  padding: 50px;
 }
 
 .earth-reliant {
@@ -141,13 +140,15 @@ background-image: url("../Background.png");
   flex: 0 0 100%;
   margin-bottom: 10px;
   padding: 50px;
+  margin-top: 100px;
 }
 
 
 
 .image-wrap {
   flex: 0 0 100%;
-  margin-top: 10px;
+  margin-top: 150px;
+  margin-bottom: 100px;
   /*padding: 80px;*/
 }
 
@@ -169,6 +170,22 @@ background-image: url("../Background.png");
 /* SUB TABLET */
 @media only screen and (max-width: 767px) {
 
+  .image-wrap {
+    flex: 0 0 100%;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    /*padding: 80px;*/
+  }
+
+  .text-wrapper {
+    flex: 0 0 100%;
+    margin-bottom: 10px;
+    padding: 50px;
+    margin-top: 50px;
+  }
+
+  
+
 }
 
 /* TABLET UP */
@@ -177,11 +194,17 @@ background-image: url("../Background.png");
 
 /* TABLET ONLY */
 @media only screen and (min-width: 768px) and (min-width: 1023px) {
+
+
+
+
 }
 
 /* DESKTOP */
 @media only screen and (min-width: 1024px) {
+
 }
+
 
 
 
